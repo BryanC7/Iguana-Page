@@ -65,13 +65,10 @@ i {
     background-size: cover;
 }
 
-/* 1er artículo */
+/* 1era sección */
 
-.section-1 {
+.desc-section {
     color: #ffffff;
-}
-
-.container-section-1 {
     padding: 80px 0;
     display: flex;
     justify-content: space-between;
@@ -86,24 +83,20 @@ i {
     width: 40%;
 }
 
-/* 2do artículo */
+/* 2da sección */
 
-.section-2 {
+.icons-section {
     background-color: #1e1a13;
     color: #ffffff;
     display: flex;
     flex-direction: column;
-}
-
-.container-section-2 {
-    padding: 80px 0;
-    width: 60%;
+    padding: 80px;
 }
 
 .icons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 120px;
 }
 
 .item {
@@ -118,10 +111,10 @@ i {
 }
 
 
-/* 3er artículo */
+/* 3era sección */
 
 .gallery {
-    padding: 100px 0;
+    padding: 80px 0;
     display: flex;
     justify-content: center;
     gap: 40px;
